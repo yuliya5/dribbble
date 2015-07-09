@@ -1,0 +1,283 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444444;
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  background: #fff;
+}
+
+#header{
+	width: 100%;
+	height: 50px;
+	background: rgba(47,47,47,0.98);
+	z-index: 9997;
+	position: fixed;
+	margin-top: 20px;
+}
+
+
+.group{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+}
+
+#inner{
+  position: relative;
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 12px;
+  
+}
+
+.dribble{
+	height: 50px;
+	position: fixed;
+	margin-top: 0px;
+}
+
+#nav {
+  margin: 0 240px 0 20px;
+  color: #777777;
+}
+
+ul{
+	list-style: none;
+}
+
+#nav li#t-search {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  margin: 0;
+}
+
+input.search-text {
+  width: 190px;
+  padding: 5px 5px 5px 25px;
+  font-size: 12px;
+  vertical-align: middle;
+  color: #bbb;
+  border: none;
+  border-radius: 4px;
+}
+
+#nav>li{
+	float: left;
+	font-size: 2.15em;
+	line-height: 1;
+	color: #999;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+li#signup{
+	float: right;
+}
+li#signin{
+	float: right;
+}
+#wrap{
+	background: #f0f0f0;
+}
+
+#main.main-full{
+  float: none;
+  width: 100%;
+
+}
+
+div.full{
+  margin: 10px 0 35px 0;
+}
+
+div.full-pitch {
+  width: 90%;
+  margin-top: -20px;
+  padding: 70px;
+  height: 50px;
+  margin-left: 50px;
+  text-align: center;
+  background: rgba(0,0,0,0.05);
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*To make the whole What are you working on.... font the way it is*/
+h1.compact {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.3;
+  color: #777777;
+}
+/*To make What are you working on words bolder*/
+h1.compact strong {
+  font-weight: 500;
+  color: #333;
+}
+a.tagline-action {
+  position: relative;
+  top: -1px;
+  margin: 0 0 0 5px;
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+/*Learn More Button*/
+.form-btn{
+  padding: 7px 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+  cursor: pointer;
+  border-radius: 4px;
+}
+/*Sign Up button*/
+.form-sub{
+  padding: 7px 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  background: #ea4c89;
+  cursor: pointer;
+  border-radius: 4px;
+}
+/*Popular, Shots, Now tabs*/
+#wrap ul.tabs {
+  margin: -2px 0 15px 0;
+  font-size: 14px;
+  border-bottom: 2px solid #ddd;
+}
+
+/*To create spacing between tabs*/
+#wrap ul.tabs li.has-dd {
+  margin-right: 8px;
+
+}
+
+/*To display tabs horizontally, float them left*/
+#wrap ul.tabs li {
+  position: relative;
+  float: left;
+  margin: 0 20px 0 0;
+  line-height: 1;
+  color: #bbb;
+
+}
+#wrap ul.tabs li.has-dd>a {
+  margin: -8px 0 0 -10px;
+  padding: 8px 23px 18px 10px;
+  background-position: 100% 14px;
+}
+
+.big-box{
+	margin: 10px;
+
+}
+
+.row{
+	display: flex;
+	margin: 50px;
+	padding: 10px;
+	
+ }
+
+.pic{
+	height: 140px;
+	width: 25%;
+	margin-left: 20px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.pagination{
+	margin-left: 50%;
+	height: 70px;
+	width: 70px;
+	margin-top: 0px;
+}
+
+.row-fluid{
+	display: flex;
+	padding: 10px;
+	background: #F2F2F2;
+ }
+
+ .row-fluid-big{
+	background-color: pink;
+	border-top: 2px solid #ddd;
+}
+
+.span6{
+	height: 180px;
+	width: 75%;
+	margin-left: 50px;
+	background: #F2F2F2;;
+	font-size: 12px;
+
+}
+
+p.copy {
+  margin: 10px 0 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #777777;
+}
+
+.equipment-pitch{
+	display: inline-block;
+}
+
+.equipment-pitch img {
+	float: left;
+	margin-right: 20px;
+}
+
+.icons img{
+	float: left;
+	height: 100px;
+	margin-right: 10px;
+}
+
+.advize{
+	margin-top: 28px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #777777;
+
+
+}
+
+.logic{
+	margin-top: 20px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #777777;
+
+}
+.ad img{
+	float: left;
+	margin-right: 10px;
+}
+
+/*Equipment, Jobs for Designers, Ads words*/
+
+.equip{
+	font-size: 15px;
+}
+.jobs{
+	font-size: 15px;
+}
+.deck{
+	font-size: 15px;
+}
