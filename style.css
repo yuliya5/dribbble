@@ -241,6 +241,7 @@ p.copy {
 .equipment-pitch img {
 	float: left;
 	margin-right: 20px;
+	margin-top: 10px;
 }
 
 .icons img{
